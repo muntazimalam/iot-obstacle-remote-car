@@ -1,6 +1,9 @@
 # iot-obstacle-remote-car
 
 In this project i have used an package/library (AfMotor) i will be providing the necessary recourses in this repository.
+
+download afmotor library from - https://github.com/adafruit/Adafruit-Motor-Shield-library.git
+
 i have eve n used servo pakage to use servo as a head of the robotic car.
 
 hardware req-

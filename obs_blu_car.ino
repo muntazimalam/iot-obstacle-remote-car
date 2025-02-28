@@ -33,7 +33,7 @@ void setup() {
 }
 void loop() {
   Obstacle();
-  //Bluetoothcontrol();
+  Bluetoothcontrol();
   //voicecontrol();
 }
 void Bluetoothcontrol() {

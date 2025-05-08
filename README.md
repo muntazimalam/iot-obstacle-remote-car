@@ -1,19 +1,57 @@
-*In this project i have used an package/library (AfMotor) i will be providing the necessary resources in this repository.
 
-download afmotor library from - https://github.com/adafruit/Adafruit-Motor-Shield-library.git
 
-i have even used servo package to use servo as a head of the robotic car.
+## 📦 Libraries & Resources
 
-hardware req-
+This project uses the following Arduino libraries:
 
-1. tt gear motor (4)
-2. servo motor (1)
-3. ultrasonic sensor (1)
-4. arduino uno r3 (1)
-5. rubber tyres for tt gear motors(4)
-6. L293D motor driver shield
-7. jumper wires as required
-8. sun board - A4 size
-9. bluetooth module
-10. battery holder
-11. liion batter 2200mh/3200mh (2)*
+- **Adafruit Motor Shield (AFMotor) Library**  
+  Used for controlling DC motors via the L293D motor driver shield.  
+  👉 [Download AFMotor Library](https://github.com/adafruit/Adafruit-Motor-Shield-library.git)
+
+- **Servo Library**  
+  Used to control the servo motor, which acts as the "head" of the robotic car.
+
+All necessary resources and example code are provided in this repository.
+
+---
+
+## 🛠️ Hardware Requirements
+
+To build this robotic car, you will need:
+
+| Component                              | Quantity |
+|-----------------------------------------|:--------:|
+| TT Gear Motor                          |    4     |
+| Servo Motor                            |    1     |
+| Ultrasonic Sensor                      |    1     |
+| Arduino UNO R3                         |    1     |
+| Rubber Tyres for TT Gear Motors        |    4     |
+| L293D Motor Driver Shield              |    1     |
+| Jumper Wires (Male/Female as required) |   -      |
+| Sun Board (A4 size)                    |    1     |
+| Bluetooth Module                       |    1     |
+| Battery Holder                         |    1     |
+| Li-ion Battery (2200mAh/3200mAh)       |    2     |
+
+---
+
+## 📝 Setup Instructions
+
+1. **Install Libraries**
+   - Download and add the [AFMotor library](https://github.com/adafruit/Adafruit-Motor-Shield-library.git) to your Arduino IDE.
+   - The Servo library is included by default in the Arduino IDE.
+
+2. **Assemble Hardware**
+   - Mount the TT gear motors and rubber tyres to the chassis (sun board).
+   - Connect the motors and sensors to the L293D motor driver shield and Arduino UNO as per the wiring diagram (refer to the resources folder).
+   - Attach the servo motor to act as the head.
+   - Connect the Bluetooth module for wireless control (if used).
+   - Insert the batteries into the holder and connect to power the system.
+
+---
+
+## 💡 Notes
+
+- Ensure all connections are secure to avoid malfunction.
+- The AFMotor library is essential for motor control with the L293D shield.
+- The servo motor can be used for scanning or as a pan/tilt head for sensors.
